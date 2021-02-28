@@ -40,3 +40,23 @@ function selectionSort(arr) {
   return arr;
 }
 ```
+### Experience
+
+* Responsible for API design and development of RESTful Services
+for the enterprise product in the business
+* Worked on building new Angular components for the
+customer-facing web app which improved the time on page for
+the average user by 2 minutes
+* Worked within an agile team and helped prioritize and scope
+feature requests to ensure that the biggest impact features were
+worked on first
+
+### Education
+
+#### HTML Academy Saint Petersburg, Russia
+* 1st course: Web interfaces development
+* 2nd course: Front-End Application Architecture
+* 3rd course: React. Development of complex Front-End Application
+
+### Languages
+English B1
