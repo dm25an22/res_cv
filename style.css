@@ -4,6 +4,8 @@
 
 body {
   margin: 0;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 ul {
@@ -15,6 +17,10 @@ li {
   list-style: none;
 }
 
+pre code {
+  color: #264653;
+}
+
 .container {
   width: 1200px;
   padding: 0 1%;
@@ -23,7 +29,8 @@ li {
 }
 
 .info {
-  width: 320px;
+  min-width: 340px;
+  max-width: 340px;
   min-height: 100vh;
   background-color: #264653;
   color: #fff;
@@ -52,9 +59,34 @@ li {
 }
 
 .contacts-list {
-  padding: 20px;
+  padding: 1.2em 1.2rem;
 }
 
 .contacts-item {
-  margin-bottom: 15px;
+  margin-bottom: 1em;
+}
+
+.main-content {
+  padding: 2em 3rem;
+}
+
+.main-section {
+  margin-bottom: 3em;
+}
+
+.main-section-p {
+  line-height: 1.5;
+}
+
+.main-section-list-numerical,
+.main-section-list-circle  {
+  padding-left: 2rem;
+}
+
+.main-section-list-circle li {
+  list-style: circle;
+}
+
+.main-section-list-numerical li {
+  list-style: decimal;
 }
