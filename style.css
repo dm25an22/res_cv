@@ -90,3 +90,18 @@ pre code {
 .main-section-list-numerical li {
   list-style: decimal;
 }
+
+.main-section-footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+}
+
+.main-section-footer-list li a img:hover {
+  transform: scale(1.2);
+}
+
+.main-section-footer-year {
+  text-align: center;
+}
